@@ -1,0 +1,66 @@
+@font-face {
+    font-family: cadillac;
+    src: url(cadillac.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../src/elzar_restaurant.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 30px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.logo {
+    font-family: cadillac;
+    font-size: 75px;
+}
+
+.navbar {
+}
+
+.nav-btn {
+    font-size: 30px;
+    margin: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.nav-btn:hover {
+  border-bottom: 2px solid white;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  
+  color: white;
+}
+
+.body-content {
+  background-color: red;
+  max-width: 60%;
+}
